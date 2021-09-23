@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Index</title>
 </head>
+
 <body>
   <iframeset>
     <iframe name="t1" src="./t1.html"></iframe>
@@ -15,25 +17,38 @@
   </iframeset>
 </body>
 <style>
+  body {
+    margin: 0;
+  }
+
+  iframe {
+    border: none;
+  }
+
   iframe[name="t1"] {
     height: 150px;
     width: 100%;
-    background-color: rgb(94, 78, 233);
+    background-color: palevioletred;
   }
-  iframe[name="t2"], iframe[name="t4"] {
+
+  iframe[name="t2"],
+  iframe[name="t4"] {
     height: 500px;
-    width: 19%;
-    background-color: rgb(161, 219, 161);
+    width: 20%;
+    background-color: paleturquoise;
   }
+
   iframe[name="t3"] {
     height: 500px;
-    width: 60.67%;
-    background-color: rgb(219, 125, 125)
+    width: 59.4%;
+    background-color: palegoldenrod;
   }
+
   iframe[name="t5"] {
-    height: 100px;
+    height: 125px;
     width: 100%;
-    background-color: rgb(158, 152, 152)
+    background-color: palegreen;
   }
 </style>
+
 </html>

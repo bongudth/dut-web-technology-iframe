@@ -11,10 +11,46 @@
   </script>
 </head>
 
-<body style="background-color: plum; text-align: center;">
-  <h1>Uppercase</h1>
-  <form name="form5" method="" action="">
-    <input type="text" name="text" onblur="upperCase()">
+<body>
+  <div class="container">
+    <h1>Uppercase</h1>
+    <form name="form5" method="" action="">
+      <input type="text" name="text" onblur="upperCase()">
+    </form>
+  </div>
 </body>
+<style>
+  body {
+    background-color: lightcoral;
+    color: coral;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .container {
+    background-color: white;
+    border: 2px solid coral;
+    border-radius: 4px;
+    box-shadow: coral 0px 3px 8px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  input {
+    width: 100%;
+    border: 1px solid coral;
+    border-radius: 4px;
+    padding: 4px;
+  }
+</style>
 
 </html>
